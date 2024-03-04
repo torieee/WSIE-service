@@ -7,7 +7,7 @@ steps:
   #   args: ['run', 'build']
   #   dir: 'server'  
 
-  - name: 'gcr.io/cloud-builders/node:14'
+  - name: 'node'
     args: ['server.js']
     dir: 'server'
     
