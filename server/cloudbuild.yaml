@@ -3,9 +3,9 @@ steps:
     args: ['install']
     dir: 'server' 
 
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['run', 'build']
-    dir: 'server'  
+  # - name: 'gcr.io/cloud-builders/npm'
+  #   args: ['run', 'build']
+  #   dir: 'server'  
 
   - name: 'gcr.io/cloud-builders/node'
     args: ['server.js']
